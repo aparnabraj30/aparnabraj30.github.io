@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+
+    <div id="logo">
+        <img src="/images/logo.png" alt="logo">
+    </div>
+
+    <div id="login">
+        <img src="/images/checklist.gif" alt="gif">
+        
+        <div class="form">
+            <h1>Ready to tackle your to-do list?</h1>
+            <h2>Log in now!</h2>
+            <div class="form-container">   
+                <form class="row g-4" action="/html/homeNew.html" onsubmit="return validateForm(redirectCallback)">
+                    <div class="col-md-6">
+                    <!-- <label for="inputEmail4" class="form-label">Email</label> -->
+                    <input type="text" class="form-control" id="inputUserName4" placeholder="Enter username" required>
+                    </div>
+                    <div class="col-md-6">
+                    <!-- <label for="inputPassword4" class="form-label">Password</label> -->
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Enter password" required>
+                    </div>
+                    
+                    <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/login.js"></script>
+
+</body>
+</html>

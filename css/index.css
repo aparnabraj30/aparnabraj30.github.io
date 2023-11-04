@@ -1,0 +1,46 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url(/images/post-it-virtual-backgrounds-murals-galore-dream-big.avif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#logo{
+    margin-top: -60px;
+    margin-left: 15px;
+    float: left;
+}
+
+#logo img{
+    width: 60px;
+    /* border: 2px solid black; */
+}
+
+h1{
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    padding: 0%;
+    /* border: 2px solid wheat; */
+    margin-top: 6%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.start-btn{
+    color: white;
+    font-weight: 2%;
+    background: #99B898;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    font-weight: 500;
+    font-family:'Courier New', Courier, monospace;
+    cursor: pointer;
+    align-items: center;
+    width: 18%;
+    height: 60px;
+    margin-top: -1%;
+    margin-left: 41%;
+    letter-spacing: 2px;
+}

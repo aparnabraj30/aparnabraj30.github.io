@@ -1,0 +1,217 @@
+
+
+#logo{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    float: left;
+    padding: 20px 0;;
+}
+
+#logo img{
+    width: 60px;
+    /* border: 2px solid black; */
+}
+
+.nav-link.active{
+    background: #2A363B !important;
+}
+
+.nav-link{
+    background: #99B898 !important;
+    color: white !important;
+}
+
+.tab-pane {
+    display: none;
+}
+.tab-pane.active {
+    display: block;
+}
+
+#pills-tab{
+    display: flex;
+    margin: 30px;
+    margin-top: 35px;
+    margin-right: 70px;
+    list-style: none;
+    float: right;
+}
+
+#pills-home-tab{
+    background-color: #99B898;
+    height: 50px;
+    width: 160px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+#pills-todo-tab{
+    background-color: #99B898;
+    height: 50px;
+    width: 160px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+#pills-logout-tab{
+    background-color: #99B898;
+    height: 50px;
+    width: 160px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    
+}
+
+.content{
+    margin-top: -38%;
+    /* border: solid black; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.content h1{
+    font-size: 140px;
+    color: #2A363B;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content h4{
+    /* font-size: 50px; */
+    color: #A8A7A7;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.popup{
+    width:450px;
+    height: 180px;
+    background: #99B898;
+    border-radius: 6px;
+    position: absolute;
+    align-items: center;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    /* color:#99B898; */
+    /* border: 2px solid black; */
+    box-shadow:  0 2px 5px rgba(0,0,0,0.5);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    
+}
+
+
+.popup h3{
+    font-size: 20px;
+    margin: 30px 0 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: #2A363B;
+}
+
+
+.popup button{
+    width: 25%;
+    margin-top: 20px;
+    padding: 10px 0;
+    color: white;
+    background: #2A363B;
+    border: none;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow:  0 2px 5px rgba(0,0,0,0.2);
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    max-width: 100%;
+}
+
+/* #todoContainer {
+    padding: 20px; /* Add padding to create space */
+    /* margin: 20px 0; Add margin to separate it from other content */
+/* } */ 
+
+#todoContainer ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 835%;
+    /* border: 2px solid; */
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  #todoContainer li {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    /* border: 1px solid #ccc; */
+    display: flex;justify-content: space-between; /* Align items horizontally */
+    align-items: center;
+    background-color: #99B898;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #todoContainer li.completed {
+    background-color: #2A363B;
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #todoContainer span {
+    padding-left: 50px;
+    order: 1; /* Set the order to 1 to place it on the left */
+  }
+
+  #todoContainer input[type="checkbox"] {
+    /* float: right; Set the order to 2 to place it on the right */
+    width: 16px; /* Adjust the width */
+    height: 16px;
+    align-items: center;
+    margin: 10px;
+    padding: 150px;
+} 
